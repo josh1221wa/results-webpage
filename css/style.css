@@ -1,0 +1,59 @@
+/* - SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
+
+/* - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* 10/16 * 100 */
+  font-size: 62.5%;
+}
+
+/*////////*/
+/* HEADER */
+/*////////*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 8rem;
+  gap: 3rem;
+  box-shadow: 0 0 1px #555;
+}
+
+.logo-img {
+  width: 52rem;
+}
+
+.header-btns {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-btn:link,
+.header-btn:visited {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 15px;
+  /* background-color: blue; */
+  box-shadow: 0 0 7px #506494;
+  color: #506494;
+  transition: all 0.3s;
+}
+
+.header-btn:hover,
+.header-btn:active {
+  background-color: #e9ecf2;
+}
+
+.icon-header {
+  font-size: 3.5rem;
+}
