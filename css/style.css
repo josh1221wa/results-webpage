@@ -69,11 +69,18 @@ html {
 
 .section-results {
   margin: 1.6rem 0;
+  margin-bottom: 6rem;
 }
 
 .results {
   max-width: 120rem;
   margin: 0 auto;
+}
+
+.result-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
 }
 
 .result-list-item:link,
@@ -135,4 +142,8 @@ html {
   font-size: 1.4rem;
   font-weight: 600;
   color: #243d79;
+}
+
+.tag-placeholder{
+  visibility: hidden;
 }
