@@ -21,6 +21,11 @@ html {
   font-weight: 500;
 }
 
+.border{
+  border-top: 0.1px solid #999;
+  width: 100vw;
+}
+
 /*////////*/
 /* HEADER */
 /*////////*/
@@ -32,11 +37,17 @@ html {
   align-items: center;
   padding: 2rem 8rem;
   gap: 3rem;
-  box-shadow: 0 0 0.1rem #555;
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 .logo-img {
   width: 52rem;
+  /* display:none; */
+}
+
+.logo-img-small {
+  display:none;
 }
 
 .header-btns {
@@ -85,7 +96,7 @@ html {
 
 .result-list-item:link,
 .result-list-item:visited {
-  max-width: 40rem;
+  /* max-width: 40rem; */
   padding: 4.8rem;
   border-radius: 2rem;
   box-shadow: 0.2rem 0.1rem 0.7rem #506494;
@@ -165,7 +176,8 @@ html {
   align-items: center;
   padding: 2rem 8rem;
   gap: 2rem;
-  box-shadow: 0 0 0.1rem #555;
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 .footer-btns{
