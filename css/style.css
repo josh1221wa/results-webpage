@@ -21,7 +21,7 @@ html {
   font-weight: 500;
 }
 
-.border{
+.border {
   border-top: 0.1px solid #999;
   width: 100vw;
 }
@@ -47,7 +47,7 @@ html {
 }
 
 .logo-img-small {
-  display:none;
+  display: none;
 }
 
 .header-btns {
@@ -157,7 +157,7 @@ html {
   color: #c1373d;
 }
 
-.time p{
+.time p {
   color: #243d79;
 }
 
@@ -180,7 +180,7 @@ html {
   margin: 0 auto;
 }
 
-.footer-btns{
+.footer-btns {
   display: flex;
   gap: 2rem;
 }
@@ -193,6 +193,11 @@ html {
   transition: all 0.3s;
 }
 
-.footer-btn:hover, .footer-btn:active{
-  color: #506494
+.footer-btn:hover,
+.footer-btn:active {
+  color: #506494;
+}
+
+.footer-copyright {
+  text-align: center;
 }

@@ -36,10 +36,6 @@
 }
 
 @media (max-width: 48em){
-    html{
-        /* font-size: 37.5%; */
-    }
-
     .result-list{
         grid-template-columns: 1fr 1fr;
     }
@@ -47,13 +43,28 @@
 
 @media (max-width: 36em){
     html{
-        font-size: 37.5%;
+        font-size: 43.75%;
     }
 }
 
 @media (max-width: 30em){
     html{
-        font-size: 56.25%;
+        font-size: 50%;
+    }
+
+    .logo-img{
+        display: none;
+    }
+
+    .logo-img-small{
+        display: block;
+        width: 10rem;
+    }
+
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 3.5rem;  
     }
 
     .result{
@@ -75,21 +86,6 @@
 @media (max-width: 18em){
     html{
         font-size: 37.25%;
-    }
-
-    .logo-img{
-        display: none;
-    }
-
-    .logo-img-small{
-        display: block;
-        width: 10rem;
-    }
-
-    .header{
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 1rem 3.5rem;  
     }
 
     .footer{
