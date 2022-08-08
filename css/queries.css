@@ -75,6 +75,11 @@
         grid-template-columns: 1fr;
     }
 
+    .footer-copyright p{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 24em){
