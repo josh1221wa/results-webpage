@@ -99,10 +99,12 @@
 }
 
 /* NO HOVER */
-@media (hover: hover) and (pointer: fine) {
+@media (hover: hover) {
   .result-list-item:hover,
   .result-list-item:active {
     text-decoration: none;
     transform: scale(1.1);
   }
 }
+
+/* Doesen't work on Edge Mobile. */
