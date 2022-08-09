@@ -14,10 +14,9 @@
   box-sizing: border-box;
 }
 
-*:focus{
+*:focus {
   outline-color: #a3874e;
 }
-
 
 html {
   /* 10/16 * 100 */
@@ -111,12 +110,7 @@ html {
   transition: all 0.3s;
 }
 
-.result-list-item:hover,
-.result-list-item:active {
-  color: #243d79;
-  text-decoration: none;
-  transform: scale(1.1);
-}
+/* Check media queries for hover effects on desktop. Default if for mobile. */
 
 .main-heading {
   font-size: 3.6rem;

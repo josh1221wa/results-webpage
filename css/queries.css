@@ -97,3 +97,12 @@
         padding: 1rem 5rem;
     }
 }
+
+/* NO HOVER */
+@media (hover: hover) and (pointer: fine) {
+  .result-list-item:hover,
+  .result-list-item:active {
+    text-decoration: none;
+    transform: scale(1.1);
+  }
+}
