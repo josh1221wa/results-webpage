@@ -99,7 +99,7 @@
 }
 
 /* NO HOVER */
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
   .result-list-item:hover,
   .result-list-item:active {
     text-decoration: none;
