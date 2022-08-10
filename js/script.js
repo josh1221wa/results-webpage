@@ -23,3 +23,30 @@ function checkFlexGap() {
 }
 checkFlexGap();
 
+// Adding dark mode toggle
+const darkModeToggle = document.querySelector('.theme-toggle');
+let darkMode = localStorage.getItem('dark-mode');
+
+const enableDarkMode = () => {
+  document.body.classList.add('dark-mode');
+  localStorage.setItem('dark-mode', 'enabled');
+};
+
+const disableDarkMode = () => {
+  document.body.classList.remove('dark-mode');
+  localStorage.setItem('dark-mode', "disabled");
+};
+
+if (darkMode === "enabled") {
+  enableDarkMode();
+}
+
+darkModeToggle.addEventListener('click', () => {
+  darkMode = localStorage.getItem('dark-mode');
+  if (darkMode === "disabled") {
+    enableDarkMode();
+  } else {
+    disableDarkMode();
+  }
+}
+);

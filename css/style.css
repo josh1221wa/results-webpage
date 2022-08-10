@@ -63,7 +63,7 @@ html {
 .header-btn:visited {
   display: inline-block;
   padding: 1rem;
-  border-radius: 2rem;
+  border-radius: 1.4rem;
   box-shadow: 0 0 0.7rem #506494;
   color: #243d79;
   transition: all 0.3s;
@@ -74,8 +74,22 @@ html {
   background-color: #e9ecf2;
 }
 
+.light{
+  display: none;
+}
+
+.dark{
+  display: block;
+}
+
+.theme-toggle:hover, .theme-toggle:active {
+  background-color: #3b3c3d;
+  color: #79b9e2;
+}
+
 .icon-header {
   font-size: 3.5rem;
+  color: inherit;
 }
 
 /*/////////////////*/

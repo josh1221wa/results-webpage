@@ -104,5 +104,6 @@
   .result-list-item:active {
     text-decoration: none;
     transform: scale(1.1);
+    box-shadow: 0 0 0.3rem #506494;
   }
 }
