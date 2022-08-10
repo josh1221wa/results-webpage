@@ -24,15 +24,18 @@
   color: #79b9e2;
 }
 
-.dark-mode .light{
-    color: inherit;
-} 
+.dark-mode .theme-toggle:hover,
+.dark-mode .theme-toggle:active {
+  background-color: #fff;
+  color: #243d79;
+}
 
-.dark-mode .light{
+.dark-mode .light {
+  color: inherit;
   display: block;
 }
 
-.dark-mode .dark{
+.dark-mode .dark {
   display: none;
 }
 

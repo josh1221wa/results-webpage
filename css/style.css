@@ -74,11 +74,17 @@ html {
   background-color: #e9ecf2;
 }
 
-.light{
+.theme-toggle:hover,
+.theme-toggle:active {
+  background-color: #3b3c3d;
+  color: #79b9e2;
+}
+
+.light {
   display: none;
 }
 
-.dark{
+.dark {
   display: block;
 }
 

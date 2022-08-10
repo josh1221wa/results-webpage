@@ -101,16 +101,4 @@
     transform: scale(1.1);
     box-shadow: 0 0 0.3rem #506494;
   }
-
-  .dark-mode .theme-toggle:hover,
-  .dark-mode .theme-toggle:active {
-    background-color: #fff;
-    color: #243d79;
-  }
-
-  .theme-toggle:hover,
-  .theme-toggle:active {
-    background-color: #3b3c3d;
-    color: #79b9e2;
-  }
 }
