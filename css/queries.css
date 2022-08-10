@@ -98,7 +98,7 @@
     }
 }
 
-/* NO HOVER */
+/* NO HOVER ON MOBILE */
 @media (hover: hover) and (pointer: fine) {
   .result-list-item:hover,
   .result-list-item:active {
@@ -106,5 +106,3 @@
     transform: scale(1.1);
   }
 }
-
-/* Doesen't work on Edge Mobile. */
