@@ -17,10 +17,14 @@ Go to https://josh1221wa.github.io/Result-Page-Project/ to see it in action.
 
 The Desktop version is ready and up. Responsive design has not been implemented as of yet but this officially is Version 01 of the project. Upcoming days will be focused on responsive design for multiple screen sizes.
 
-## 06/08/2022 - Version 02 update
+## 06/08/2022 - Version 02 Update
 
 Responsive design has been implemented for various screen sizes. This is version 02. Next will be optimizations.
 
-## 10/08/2022 - Version 2.5 update
+## 10/08/2022 - Version 2.5 Update
 
 Optimizations and Javascript has been completed. Next up is dark mode.
+
+## 10/08/2022 - Version 03 Update
+
+DARK MODE! has finally been added with a toggle button. The dark mode state is saved in localStorage so its permanent.
