@@ -3,9 +3,13 @@
 Just making a result page redesign for my college😁. 
 Only HTML and CSS and (very little) visual Javascript.
 
-![alt text](https://github.com/josh1221wa/Result-Page-Project/blob/master/img/old-website.png?raw=true)
-
 Go to https://josh1221wa.github.io/Result-Page-Project/ to see it in action.
+
+---
+
+## This is what the college site looks like I am just redesigning this.
+
+![alt text](https://github.com/josh1221wa/Result-Page-Project/blob/master/img/old-website.png?raw=true)
 
 ---
 
