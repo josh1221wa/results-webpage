@@ -3,6 +3,8 @@
 Just making a result page redesign for my college😁. 
 Only HTML and CSS and (very little) visual Javascript.
 
+![alt text](https://github.com/josh1221wa/Result-Page-Project/blob/main/old-website.png?raw=true)
+
 Go to https://josh1221wa.github.io/Result-Page-Project/ to see it in action.
 
 ---
@@ -14,3 +16,7 @@ The Desktop version is ready and up. Responsive design has not been implemented 
 ## 06/08/2022 - Version 02 update
 
 Responsive design has been implemented for various screen sizes. This is version 02. Next will be optimizations.
+
+## 10/08/2022 - Version 2.5 update
+
+Optimizations and Javascript has been completed. Next up is dark mode.
