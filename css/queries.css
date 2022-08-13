@@ -17,13 +17,13 @@
     font-size: 56.25%;
   }
 
+  .result-list {
+    gap: 2.5rem;
+  }
+
   .result-list-item:link,
   .result-list-item:visited {
     padding: 3.5rem;
-  }
-
-  .result-list {
-    gap: 2.5rem;
   }
 
   .tag {
@@ -48,6 +48,12 @@
     font-size: 50%;
   }
 
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3.5rem;
+  }
+
   .logo-img {
     display: none;
   }
@@ -55,12 +61,6 @@
   .logo-img-small {
     display: block;
     width: 10rem;
-  }
-
-  .header {
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 1rem 3.5rem;
   }
 
   .result {

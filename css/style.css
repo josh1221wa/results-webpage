@@ -1,33 +1,25 @@
-/* - SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
-
-/* - FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
-
-/* COLOR SYSTEM */
-/* Main - #243d79 */
-/* Shade - #506494 */
-
 * {
+  /* Reset default HTML settings */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 *:focus {
+  /* When tab is pressed */
   outline-color: #a3874e;
 }
 
 html {
-  /* 10/16 * 100 */
-  font-size: 62.5%;
-  font-family: "Montserrat", sans-serif;
+  /* Rem system is used where 1 rem = 10 px */
+  font-size: 62.5%; /* 10/16 = .625 = 62.5% */
+  font-family: "Montserrat", sans-serif; /* Montserrat font from Google fonts */
   font-weight: 500;
 }
 
 .border {
   border-top: 0.1px solid #999;
-  width: 100vw;
+  width: 100vw; /* Full width of viewport */
 }
 
 /*////////*/
@@ -47,11 +39,10 @@ html {
 
 .logo-img {
   width: 52rem;
-  /* display:none; */
 }
 
 .logo-img-small {
-  display: none;
+  display: none; /* Only shows up on smaller screen devices */
 }
 
 .header-btns {
@@ -70,6 +61,12 @@ html {
   transition: all 0.3s;
 }
 
+.icon-header {
+  font-size: 3.5rem;
+  color: inherit;
+}
+
+/* For non-touch devices hover will work. */
 @media (hover: hover) and (pointer: fine) {
   .home:hover,
   .home:active {
@@ -85,17 +82,13 @@ html {
   }
 }
 
+/* Icon is displayed only in dark mode */
 .light {
   display: none;
 }
 
 .dark {
   display: block;
-}
-
-.icon-header {
-  font-size: 3.5rem;
-  color: inherit;
 }
 
 /*/////////////////*/
@@ -110,6 +103,15 @@ html {
 .results {
   max-width: 120rem;
   margin: 0 auto;
+}
+
+.main-heading {
+  font-size: 3.6rem;
+  font-weight: 500;
+  text-align: center;
+  color: #243d79;
+  text-decoration: underline;
+  margin-bottom: 3.6rem;
 }
 
 .result-list {
@@ -138,15 +140,6 @@ html {
     transform: scale(1.1);
     box-shadow: 0 0 0.3rem #506494;
   }
-}
-
-.main-heading {
-  font-size: 3.6rem;
-  font-weight: 500;
-  text-align: center;
-  color: #243d79;
-  text-decoration: underline;
-  margin-bottom: 3.6rem;
 }
 
 .tags {
@@ -186,10 +179,6 @@ html {
 
 .time p {
   color: #243d79;
-}
-
-.tag-placeholder {
-  visibility: hidden;
 }
 
 /*/////////////////*/
