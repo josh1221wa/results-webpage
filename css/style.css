@@ -65,19 +65,24 @@ html {
   padding: 1rem;
   border-radius: 1.4rem;
   box-shadow: 0 0 0.7rem #506494;
+  background-color: #fff;
   color: #243d79;
   transition: all 0.3s;
 }
 
-.header-btn:hover,
-.header-btn:active {
-  background-color: #e9ecf2;
+@media (hover: hover) and (pointer: fine) {
+  .home:hover,
+  .home:active {
+    background-color: #e9ecf2;
+  }
 }
 
-.theme-toggle:hover,
-.theme-toggle:active {
-  background-color: #3b3c3d;
-  color: #79b9e2;
+@media (hover: hover) and (pointer: fine) {
+  .theme-toggle:hover,
+  .theme-toggle:active {
+    background-color: #3b3c3d;
+    color: #79b9e2;
+  }
 }
 
 .light {
@@ -125,7 +130,15 @@ html {
   transition: all 0.3s;
 }
 
-/* Check media queries for hover effects on desktop. Default if for mobile. */
+/* NO HOVER ON MOBILE */
+@media (hover: hover) and (pointer: fine) {
+  .result-list-item:hover,
+  .result-list-item:active {
+    text-decoration: none;
+    transform: scale(1.1);
+    box-shadow: 0 0 0.3rem #506494;
+  }
+}
 
 .main-heading {
   font-size: 3.6rem;
@@ -207,9 +220,11 @@ html {
   transition: all 0.3s;
 }
 
-.footer-btn:hover,
-.footer-btn:active {
-  color: #506494;
+@media (hover: hover) and (pointer: fine) {
+  .footer-btn:hover,
+  .footer-btn:active {
+    color: #506494;
+  }
 }
 
 .footer-copyright {

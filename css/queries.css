@@ -92,13 +92,3 @@
     padding: 1rem 5rem;
   }
 }
-
-/* NO HOVER ON MOBILE */
-@media (hover: hover) and (pointer: fine) {
-  .result-list-item:hover,
-  .result-list-item:active {
-    text-decoration: none;
-    transform: scale(1.1);
-    box-shadow: 0 0 0.3rem #506494;
-  }
-}
