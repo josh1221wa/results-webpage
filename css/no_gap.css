@@ -60,7 +60,7 @@
   }
 }
 
-@media (max-width: 64em){
+@media (max-width: 64em) {
   .no-gap .result-list-item {
     margin: 1.25rem 1.25rem;
   }
