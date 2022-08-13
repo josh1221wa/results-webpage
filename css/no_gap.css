@@ -1,0 +1,67 @@
+/* FLEXBOX */
+.no-gap .logo-img {
+  margin-bottom: 3rem;
+}
+
+.no-gap .header-btn:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.no-gap .tags {
+  margin-bottom: 1.5rem;
+}
+
+.no-gap .tag:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.no-gap .tag {
+  margin-bottom: 0.5rem;
+}
+
+.no-gap .time-icon {
+  margin-right: 0.2rem;
+}
+
+.no-gap .footer-btns {
+  margin-bottom: 2rem;
+}
+
+.no-gap .footer-btn:not(:last-child) {
+  margin-right: 2rem;
+}
+
+@media (max-width: 30em) {
+  .no-gap .logo-img {
+    margin-bottom: 0;
+  }
+}
+
+/* CSS Grid */
+.no-gap .result-list {
+  gap: 0;
+}
+
+.no-gap .section-results {
+  margin-bottom: 2rem;
+}
+
+.no-gap .results {
+  max-width: 124rem;
+}
+
+.no-gap .result-list-item {
+  margin: 2rem 2rem;
+}
+
+@media (max-width: 78em) {
+  .no-gap .result-list-item {
+    margin: 1.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 64em){
+  .no-gap .result-list-item {
+    margin: 1.25rem 1.25rem;
+  }
+}

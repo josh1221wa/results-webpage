@@ -19,7 +19,7 @@ function checkFlexGap() {
   console.log(isSupported);
 
   if (!isSupported)
-    document.body.classList.add("no-flexbox-gap");
+    document.body.classList.add("no-gap");
 }
 checkFlexGap();
 
