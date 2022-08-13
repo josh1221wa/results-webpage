@@ -1,9 +1,9 @@
 // Get current year
-const yearEl = document.querySelector(".year");
-const currentYear = new Date().getFullYear();
-yearEl.textContent = currentYear;
+const yearEl = document.querySelector(".year"); // Get the year element
+const currentYear = new Date().getFullYear(); // Get the current year
+yearEl.textContent = currentYear; // Set the current year
 
-// Fixing flexbox gap property missing in some Safari versions
+// Fixing gap property missing in some browsers
 function checkFlexGap() {
   var flex = document.createElement("div");
   flex.style.display = "flex";
