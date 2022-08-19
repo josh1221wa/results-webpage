@@ -7,6 +7,11 @@ Go to https://josh1221wa.github.io/Result-Page-Project/ to see it in action.
 
 ---
 
+## Watch how I built this on Youtube
+[![Youtube Thumbnail](http://img.youtube.com/vi/957Pf0Q9qws/0.jpg)](https://youtu.be/957Pf0Q9qws "How I Designed My First Website Using HTML & CSS")
+
+---
+
 ## Documentation
 <p>Javascript functions have comment lines explaining what they do.</p>
 For design decisions and more detailed documentation access <a href="https://github.com/josh1221wa/Result-Page-Project/blob/master/Design-decisions.md">the doc</a>
